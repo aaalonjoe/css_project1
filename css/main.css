@@ -73,6 +73,7 @@ section.main .title {
   text-align: center;
   color: #fff;
   padding: 10px;
+  opacity: 0.9;
 
   position: absolute;
   left: 50%;
@@ -125,6 +126,7 @@ section.article .one .user i {
   float: left;
   font-size: 30px;
   margin-right: 10px;
+  color: #ccc;
 }
 section.article .one .user .admin {
   font-size: 12px;
@@ -159,6 +161,9 @@ section.article .one .sub i.fa-heart {
 }
 section.article .one .contents a {
   font-size: 13px;
+}
+section.article .one .contents a:hover {
+  color: rgb(91, 148, 255);
 }
 section.article .one .contents a p:first-child {
   font-size: 15px;
