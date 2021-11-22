@@ -28,22 +28,23 @@ a {
   top: 0;
   z-index: 11;
 }
+.header header {
+  width: 70%;
+}
 .header .gtn {
   float: left;
 }
 .header .gtn a {
   padding: 0 10px;
-  color: #aaa;
-  border-right: 1px solid #fff;
+  color: #fff;
+  font-size: 16px;
 }
 .header .gtn a:first-child {
   color: #fff;
-}
-.header .gtn a:last-child {
-  border-right: none;
+  font-weight: 700;
 }
 .header .gtn a:hover {
-  color: #fff;
+  color: #ccc;
 }
 .header .tbn {
   float: right;
@@ -203,7 +204,7 @@ footer {
   line-height: 100px;
 }
 footer .inner-footer {
-  width: 50%;
+  width: 70%;
   /* background: orange; */
 }
 footer .inner-footer ul.icon {
