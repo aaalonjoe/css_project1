@@ -89,7 +89,7 @@ body {
     height: 400px;
     width: 300px;
     border-radius: 50%;
-    background: url('/img/3..jpg') no-repeat center / cover;
+    background: url('../img/3..jpg') no-repeat center / cover;
 }
 .main .pont:hover {
     color: #000;

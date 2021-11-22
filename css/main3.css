@@ -71,7 +71,7 @@ input {
   }
 
 section.main {
-    background: url(/img/1..jpeg) no-repeat center 70px / cover;
+    background: url('../img/1..jpeg') no-repeat center 70px / cover;
     background-attachment: fixed;
     height: 100vh;
     position: relative;
